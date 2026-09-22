@@ -1,0 +1,7 @@
+sentence=input("Enter the sentence:")
+clean_sentence=sentence.strip()
+print("Uppercase:",sentence.upper())
+print("Characters:",len(clean_sentence))
+word=sentence.split()
+print("Words:",len(word))
+print("Contains python:","python" in sentence.lower())
